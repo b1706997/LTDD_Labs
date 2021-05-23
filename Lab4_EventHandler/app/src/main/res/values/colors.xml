@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="xanhla">#009688</color>
+    <color name="trang">#FCFDFC</color>
+    <color name="maudo">#F44336</color>
+    <color name="vang">#FFEB3B</color>
+    <color name="cam">#FF9800</color>
+    <color name="tim">#9C27B0</color>
+    <color name="lam">#03A9F4</color>
+</resources>

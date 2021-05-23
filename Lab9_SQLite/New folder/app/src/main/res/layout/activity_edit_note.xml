@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tiêu đề" />
+
+    <EditText
+        android:id="@+id/namenote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nhập tiêu đề" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ngày" />
+
+    <DatePicker
+        android:id="@+id/datenote"
+        android:layout_width="368dp"
+        android:layout_height="74dp"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner"></DatePicker>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Địa điểm" />
+
+    <EditText
+        android:id="@+id/placenote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nhập địa điểm" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lưu" />
+
+        <Button
+            android:id="@+id/deleteBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xoá" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
